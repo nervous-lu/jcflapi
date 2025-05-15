@@ -40,8 +40,8 @@ class WechatController extends Controller
         $config = $utils->buildJsSdkConfig(
             url: $url, 
             jsApiList: [
-                'onMenuShareTimeline',
-                'onMenuShareAppMessage',
+                'updateTimelineShareData',
+                'updateAppMessageShareData',
                 'chooseImage',
                 'uploadImage',
                 'getLocation',
